@@ -75,10 +75,6 @@ export default function MoveTask() {
             
     })
 
-    console.log();
-
-    
-
     return (
         <div>
             <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap' }}>
