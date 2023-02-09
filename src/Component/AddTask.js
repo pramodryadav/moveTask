@@ -39,7 +39,8 @@ const [tasksName,setTaskName] = useState([])
         <DialogTitle>Add Task</DialogTitle>
         <DialogContent>
           <TextField
-            style={{width:'400px'}}
+            size='small'
+            style={{minWidth:'400px'}}
             id="name"
             type="text"
             onChange={(e)=>addTask(e)}
